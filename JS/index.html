@@ -6,10 +6,57 @@
 </head>
 <body>
 
-<h1> 0111</h1>
+<h1> Javascript</h1>
 <script>
-    var nome = `aaqwa Teshima`;
-    console.log (nome,length)
+
+    var textovazio = ``;
+    if (textovazio) { console.log(`textovazio`)}
+
+  if (!textovazio) {console.log(`oi`);} else {console.log(`ola`)}
+  //* se textovazio for verdadeiro oi se nao for ola *//
+
+    if (10 > 20) {console.log(`10>20`);} else if (10 <= 10) { console.log(`10 <= 12`);}
+    else { console.log(`programador`);}
+//* operador termario pode ser usado para diminuir *//
+
+    var idade = 13;
+    console.log(idade >= 18 ? `maior de idade` : `menor de idade`)
+
+//*switch case *//
+    var cor = `branco`;
+    switch (cor) {
+        case `azul`:
+            console.log(`cor azul`);
+            break;
+        case "roxa":
+            console.log(`cor branco`);
+            break;
+        case `vermelho`:
+            console.log(`cor vermelha`);
+            break;
+        default:
+            console.log(`vermelho`)
+            break;
+    }
+
+    switch (`azul`) {
+        case `vermelho`: case `amarelo`: case `laranja`:
+            console.log(`cor quente`);
+        break;
+        case `verde`: case `branco`: case `roxo`:
+            console.log(`cor fria`);
+            break;
+
+        default:
+            console.log(`nao identificado`)
+    }
+
+
+
+
+
+
+
 </script>
 
 </body>
