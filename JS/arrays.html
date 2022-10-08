@@ -5,6 +5,38 @@
     <title>arrays</title>
 </head>
 <body>
+<script>
+    var numeros = [5,3,12,17,10,99];
+    console.log(numeros)
 
+    console.log(numeros[0]); // puxa na ordem da lista //
+    console.log(numeros[3]);
+    console.log(numeros[5]);
+
+    console.log(numeros.length) // quantidade de numeros da lista do arry //
+
+    var numeroretornado = numeros.pop(); // tira o numero da lista e retorna //
+    console.log(`numeroretornado`, numeroretornado);
+    console.log(numeros);
+    console.log(numeros.slice(2,5)) // retorna fatia do arry retorna a posicao incial e final da lista - posicao penultima //
+    console.log(numeros.join(` `)) // junta os valores e transforma e uma string//
+
+    var usuario = [
+        `thiago`, 26, `programador iniciante`, 2020, `brasileiro`
+    ];
+    console.log(usuario);
+    usuario.push(`RJ`); // adiciona uma nova informacao da arry //
+    console.log(usuario);
+    console.log(usuario.includes(`thiago`))// verifica a informacao na lista //
+
+    var arr1 = [3, 2, 1];
+    var arr2 = [`programador`, `a`,`bordo`];
+    // juntar as duas listas //
+    var resultado = arr1.concat(arr2);
+    console.log(resultado);
+
+
+
+</script>
 </body>
 </html>
