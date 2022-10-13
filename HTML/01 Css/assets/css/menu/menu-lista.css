@@ -1,0 +1,4 @@
+.menu-lista {
+    display: flex; /* deixou display um ao lado do outro */
+    margin-top: 1.7rem;
+}

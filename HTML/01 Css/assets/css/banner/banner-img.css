@@ -1,0 +1,4 @@
+.banner-imagem {
+    height: calc(100vh - 72px); /* retirou o calculo do top com a pagina  */
+    width: 100%;
+}

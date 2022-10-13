@@ -1,0 +1,9 @@
+.cabecalho {
+    align-content: center; /* alinhou os itens ao centro do container */
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between; /* criar espaco entre os elementos */
+    padding-left: 2rem;
+    padding-right: 2rem ;
+
+}

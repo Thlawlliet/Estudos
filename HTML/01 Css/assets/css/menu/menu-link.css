@@ -1,0 +1,16 @@
+.menu-link {
+    color: #808080;
+    margin-right: 1.2rem;
+    text-decoration: none; /* sem modo link */
+    text-transform: lowercase; /* menusculo*/
+}
+
+.menu-link.ativo { /* quando estiver na pagina ele fica em bold */
+    color: #333333;
+    font-weight: bold;
+
+}
+
+.menu-link:hover { /* adicionando efeito para quando passar o mouse em cima */
+    text-decoration: underline;
+}

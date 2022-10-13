@@ -1,0 +1,8 @@
+.menu-item {
+    list-style: none; /* tirou as bolinhas do link */
+
+
+}
+.menu-item:last-child .menu-link { /* pegou o ultimo li */
+    margin-right: 0;
+}
